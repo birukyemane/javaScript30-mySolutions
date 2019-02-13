@@ -1,5 +1,24 @@
+body {
+    background: gray;
+}
+
 .keys {
     display: flex;
     margin-top: 200px;
     margin-left: 100px;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding:10px;
+    border: 1px solid black;
+    color: white;
+    font-size : 22px;
+}
+
+.sound {
+    font-size: 15px;
+    color: orange;
 }
